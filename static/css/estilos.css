@@ -1,0 +1,153 @@
+/*Utilidades*/
+.u-tittle{
+	color: #00CCFF;
+	border-bottom: 0.125rem dashed #00CCFF;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0.5rem 0.5rem;
+	text-align: center;
+}
+
+
+/* Header */
+.Header{
+	background-image: url('../images/bg_header1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 3.75rem;
+	padding: 1.2rem;
+	text-align: center;
+}
+.Header-imageContainer{
+	margin: 0px;
+}
+.Header-image{
+	border: 8px solid white;
+	border-radius: 50%;
+}
+.Header-name,
+.Header-link{
+	color: white;	
+}
+.Header-link{
+	font-size: 2.2rem;
+	font-weight: bold;
+	text-decoration: none;
+}
+.Header-name{
+	font-size: 1.56rem;
+	font-weight: 300;
+	margin: 0px;
+}
+
+/* Main Menu */
+.MainMenu{
+	background: #333333;
+	height: 3.75rem;
+	left: 0px;
+	position: fixed;
+	right: 0px;
+	text-align: center;
+	top: 0px;
+}
+.MainMenu-list{
+	margin: 0px;
+	padding: 0px;
+}
+.MainMenu-item{
+	display: inline-block;
+}
+.MainMenu-link{
+	color: #00CCFF;
+	text-decoration: none;
+	line-height: 3.75rem;
+	margin-right: 3rem;
+}
+
+/*Perfil*/
+.Profile{
+	text-align: center;
+}
+.Profile-link{
+	background: orange;
+	border-radius: 2rem;
+	color: white;
+	margin-right: 0.5rem;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+}
+
+/*Trabajo*/
+.Work{
+ 	margin-top: 2rem;
+ 	text-align: center;
+}
+.Work-item{
+	display: inline-block;
+	margin-bottom: 1.8rem;
+	margin-right: 1.8rem;
+	margin-top: 1.8rem;
+}
+.Work-imageContainer{
+	margin: 0px;
+}
+.Work-image{
+	height: 245px;
+	width: 245px;
+}
+.Work-description{
+	color: #515151;
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+/*Footer*/
+.Footer{
+	background-image: url('../images/footer.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 2rem 0px;
+	text-align: center;
+}
+.Footer-form{
+	display: inline-block;
+	text-align: center;
+}
+.Footer-formInput,
+.Footer-textarea{
+	background: white;
+	border: none;
+	border-radius: 1rem;
+	display: block;
+	margin: 0px auto 1rem;
+	padding: 0.5rem;
+}
+.Footer-textarea{
+	resize: none;
+}
+.Footer-button{
+	background: orange;
+	color: white;
+	border: none;
+	border-radius: 1rem;
+	padding: 0.5rem 1rem;
+}
+.Footer-tittle{
+	color: white;
+}
+.Footer-left{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 32rem;
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 1280px){
+
+}
